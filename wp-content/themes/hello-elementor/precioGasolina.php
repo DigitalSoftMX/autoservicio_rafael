@@ -16,7 +16,7 @@ foreach ($prices->place as $place) {
             $precio = (float) $price;
             $precios[$tipo_gas] = $precio;
         }
-        break;
+        break; 
     }
 }
 if (count($precios) > 0) {
